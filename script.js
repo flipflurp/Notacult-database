@@ -4,6 +4,7 @@ $('#login').submit(function(){
     $('#login').hide();
     $('#searchbar').show();
   }
+  return false;
 });
 $('#code').submit(function(){
   enteredCode = $('#code').val().toLowerCase();
