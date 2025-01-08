@@ -20,4 +20,5 @@ $('#code').submit(function(){
   else{
     $('result').attr('alt','No result found');
   }
+  return false;
 });
