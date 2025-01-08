@@ -1,4 +1,3 @@
-var enteredCode ='';
 $('#login').submit(function(){
   if($('#password').val() =='bcghjmpt'){
     $('#login').hide();
