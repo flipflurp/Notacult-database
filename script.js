@@ -1,10 +1,17 @@
 var enteredCode ='';
 
 $('#login').submit(function(){
+  
   if($('#password').val() =='bcghjmpt'){
     $('#login').hide();
     $('#searchbar').show();
+    $('#result').attr('alt','');
   }
+  else{
+    $('#result').attr('alt','Password is incorrect');
+
+  }
+  $('#password').val('');
   return false;
 });
 
@@ -20,5 +27,6 @@ $('#code').submit(function(){
   else{
     $('result').attr('alt','No result found');
   }
+  $('#code').val('');
   return false;
 });
