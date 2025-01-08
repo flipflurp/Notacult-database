@@ -11,7 +11,7 @@ $('#login').submit(function(){
     $('#result').attr('alt','Password is incorrect');
 
   }
-  $('#password').val('');
+  $('#password').attr('value','');
   return false;
 });
 
