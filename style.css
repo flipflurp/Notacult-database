@@ -2,10 +2,15 @@ html {
   height: 100%;
   width: 100%;
 }
-#cool{
+#result{
   color: blue;
   font-size: 30px;
 }
 body{
-  background-color: purple;
+  background-color: black;
+}
+#searchbar{
+  margin: auto;
+  padding: 15px;
+
 }
