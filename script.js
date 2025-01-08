@@ -1,6 +1,6 @@
 var enteredCode ='';
 $('#queryBtn').click(function(){
-  enteredCode = $('#code').val();
+  enteredCode = $('#code').val().toLowerCase();
   if(enteredCode == 'balls'){
     $('#result').attr('src','Puppy.jpg');
   }
