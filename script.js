@@ -1,5 +1,11 @@
 var enteredCode ='';
-$('#queryBtn').click(function(){
+$('password').submit(function(){
+  if(('password').val =='bcghjmpt'){
+    $('login').hide();
+    $('searchbar').show();
+  }
+});
+$('#code').submit(function(){
   enteredCode = $('#code').val().toLowerCase();
   if(enteredCode == 'balls'){
     $('#result').attr('src','Images/Puppy.jpg');
