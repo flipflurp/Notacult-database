@@ -7,4 +7,7 @@ $('#queryBtn').click(function(){
   else if(enteredCode == 'meow'){
     $('#result').attr('src','hugh jackman (1).PNG');
   }
+  else{
+    $('result').attr('alt','No result found');
+  }
 });

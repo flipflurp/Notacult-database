@@ -13,3 +13,10 @@ body{
   padding: 15px;
   width:50%;
 }
+#code{
+  height:20px;
+  width:100px
+}
+#codelabel{
+  font-size:30px;
+}
