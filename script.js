@@ -1,5 +1,5 @@
 var enteredCode ='';
-$('#login').submit(function(){
+$('#password').submit(function(){
   if(('#password').val() =='bcghjmpt'){
     $('#login').hide();
     $('#searchbar').show();
