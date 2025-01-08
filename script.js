@@ -1,6 +1,6 @@
 var enteredCode ='';
 $('#password').submit(function(){
-  if(('#password').val() =='bcghjmpt'){
+  if($('#password').val() =='bcghjmpt'){
     $('#login').hide();
     $('#searchbar').show();
   }
