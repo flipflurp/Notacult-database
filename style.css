@@ -8,6 +8,12 @@ html {
 body{
   background-color: rgb(34, 31, 56);
 }
+form{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
 #searchbar{
   margin: auto;
   padding: 15px;
