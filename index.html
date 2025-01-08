@@ -15,6 +15,13 @@
     <label style="color: white;" for="password">Password:</label>
     <input id='password' autocomplete="off" style="background-color: rgb(70, 70, 145);" required>
   </form>
+
+  <form id='searchbar' name='searchbar' hidden>
+    <label for="code" style = "color:white;" id="codelabel">Enter file ID:</label><br>
+    <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
+    <input type="button" value="Query" id="queryBtn">
+  </form>
+  <img id="result" src='' alt="">
   
   <script src="login.js"></script>
 </body>
