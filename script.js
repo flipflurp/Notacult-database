@@ -1,8 +1,8 @@
 var enteredCode ='';
-$('#password').submit(function(){
-  if(('password').val =='bcghjmpt'){
-    $('login').hide();
-    $('searchbar').show();
+$('#login).submit(function(){
+  if(('#password').val =='bcghjmpt'){
+    $('#login').hide();
+    $('#searchbar').show();
   }
 });
 $('#code').submit(function(){
