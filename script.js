@@ -25,12 +25,13 @@ $('#searchbar').submit(function(){
     $('#result').attr('src','Images/Convo2.jpeg');
   }
   else if(enteredCode == 'chocolate'){
-    $('#result').attr('src','Images/Convo3.jpeg')
+    $('#result').attr('src','Images/Convo3.jpeg');
   }
   else if((enteredCode).is(':contains("gnieb")')){
-    $('#result').attr('src','Images/RedactedImage.png')
+    $('#result').attr('src','Images/RedactedImage.png');
   }
   else{
+    $('#result').attr('src','');
     $('result').attr('alt','No result found');
   }
   $('#code').val('');
