@@ -4,4 +4,7 @@ $('#queryBtn').click(function(){
   if(enteredCode == 'balls'){
     $('#result').text('balls');
   }
+  else if(enteredCode == 'meow'){
+    $('#result').text('meow');
+  }
 });
