@@ -3,11 +3,10 @@ html {
   width: 100%;
 }
 #result{
-  color: blue;
   font-size: 30px;
 }
 body{
-  background-color: gray;
+  background-color: rgb(34, 31, 56);
 }
 #searchbar{
   margin: auto;
