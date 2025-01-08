@@ -16,7 +16,7 @@ $('#login').submit(function(){
 });
 
 
-$('#code').submit(function(){
+$('#searchbar').submit(function(){
   enteredCode = $('#code').val().toLowerCase();
   if(enteredCode == 'balls'){
     $('#result').attr('src','Images/Puppy.jpg');
