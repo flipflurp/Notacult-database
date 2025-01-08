@@ -27,7 +27,7 @@ $('#searchbar').submit(function(){
   else if(enteredCode == 'chocolate'){
     $('#result').attr('src','Images/Convo3.jpeg');
   }
-  else if((enteredCode).is(':contains("gnieb")')){
+  else if(enteredCode == 'gnieb hc tirdle'){
     $('#result').attr('src','Images/RedactedImage.png');
   }
   else{
