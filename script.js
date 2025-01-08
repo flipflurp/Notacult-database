@@ -32,7 +32,7 @@ $('#searchbar').submit(function(){
   }
   else{
     $('#result').attr('src','');
-    $('result').attr('alt','No result found');
+    $('#result').attr('alt','No result found');
   }
   $('#code').val('');
   return false;
