@@ -14,15 +14,14 @@ form{
   left:50%;
   transform: translate(-50%, -50%);
 }
-#searchbar{
-  margin: auto;
-  padding: 15px;
-  width:50%;
-}
 #code{
   height:20px;
   width:100px
 }
 #codelabel{
   font-size:30px;
+}
+img{
+  height:700px;
+  width:auto;
 }
