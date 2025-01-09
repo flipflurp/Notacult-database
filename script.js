@@ -5,10 +5,10 @@ $('#login').submit(function(){
   if($('#password').val() =='bcghjmpt'){
     $('#login').hide();
     $('#searchbar').show();
-    $('#result').attr('alt','');
+    $('#notif').text('');
   }
   else{
-    $('#result').attr('alt','Password is incorrect');
+    $('#notif').text('Password is incorrect');
 
   }
   $('#password').val('');
@@ -18,6 +18,8 @@ $('#login').submit(function(){
 
 $('#searchbar').submit(function(){
   enteredCode = $('#code').val().toLowerCase();
+  $('#result').show();
+  $('#notif').text('');
   if(enteredCode == 'balls'){
     $('#result').attr('src','Images/Convo1.jpeg');
   }
@@ -31,8 +33,8 @@ $('#searchbar').submit(function(){
     $('#result').attr('src','Images/RedactedImage.png');
   }
   else{
-    $('#result').attr('src','');
-    $('#result').attr('alt','No result found');
+    $('#result').hide();
+    $('#notif').text('No result found');
     $('#code').val('');
     return false;
   }
