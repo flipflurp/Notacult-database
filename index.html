@@ -15,15 +15,16 @@
       <label style="color: white;" for="password">Password:</label>
       <input id='password' autocomplete="off" style="background-color: rgb(70, 70, 145);" placeholder='Enter password' required autofocus>
     </form>
-
-    <form id='searchbar' name='searchbar' hidden>
-      <label for="code" style = "color:white;" id="codelabel">
-        Enter file ID:
-      </label><br>
-      <input type="button" value="Query" id="queryBtn">
-      <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
+    <div id='searchbar' name='searchbar' hidden>
+      <form>
+        <label for="code" style = "color:white;" id="codelabel">
+          Enter file ID:
+        </label><br>
+        <input type="button" value="Query" id="queryBtn">
+        <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
+      </form>
       <img id="result" src='' alt="">
-    </form>
+    </div>
     <p id="notif"></p>
   <script src="script.js"></script>
 </body>
