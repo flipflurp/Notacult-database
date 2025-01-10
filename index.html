@@ -11,22 +11,23 @@
 
 <body>
   <h1>Notacult Database</h1>
-  <form id="login" action = "">
-    <label style="color: white;" for="password">Password:</label>
-    <input id='password' autocomplete="off" style="background-color: rgb(70, 70, 145);" placeholder='Enter password' required autofocus>
-  </form>
+  <div>
+    <form id="login" action = "">
+      <label style="color: white;" for="password">Password:</label>
+      <input id='password' autocomplete="off" style="background-color: rgb(70, 70, 145);" placeholder='Enter password' required autofocus>
+    </form>
 
-  <form id='searchbar' name='searchbar' hidden>
-    <label for="code" style = "color:white;" id="codelabel">
-      Enter file ID:
-    </label><br>
-    <input type="button" value="Query" id="queryBtn">
-    <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
-    <br>
-    <img id="result" src='' alt="" size="200">
-  </form>
-  <p id="notif"></p>
-  
+    <form id='searchbar' name='searchbar' hidden>
+      <label for="code" style = "color:white;" id="codelabel">
+        Enter file ID:
+      </label><br>
+      <input type="button" value="Query" id="queryBtn">
+      <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
+      <br>
+      <img id="result" src='' alt="" size="200">
+    </form>
+    <p id="notif"></p>
+  </div>
   <script src="script.js"></script>
 </body>
 
