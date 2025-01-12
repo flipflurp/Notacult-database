@@ -15,6 +15,8 @@ form{
   transform: translate(-50%, -50%);
 }
 div{
+  width:200px;
+  height:300px;
   border-color:aqua;
   background-color: aqua;
   border-width:10px;
