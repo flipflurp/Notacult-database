@@ -16,6 +16,7 @@ form{
 }
 div{
   border-color:aqua;
+  background-color: aqua;
   border-width:10px;
   position:absolute;
   top:50%;
