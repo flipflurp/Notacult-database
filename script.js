@@ -61,22 +61,20 @@ $('#searchbar').submit(function(){
   $('#result').show();
   $('#resultnotif').hide('');
   if(enteredCode == 'balls'){
-    $('#result').attr('src','Convo1.jpeg');
+    $('#result').attr('src','Images/Convo1.jpeg');
   }
   else if(enteredCode == 'meow'){
-    $('#result').attr('src','Convo2.jpeg');
+    $('#result').attr('src','Images/Convo2.jpeg');
   }
   else if(enteredCode == 'chocolate'){
-    $('#result').attr('src','Convo3.jpeg');
+    $('#result').attr('src','Images/Convo3.jpeg');
   }
   else if(enteredCode == 'gnieb hc tirdle'){
-    $('#result').attr('src','/RedactedImage.png');
+    $('#result').attr('src','Images/RedactedImage.png');
   }
   else{
     $('#result').hide();
     $('#resultnotif').show();
-    $('#code').val('');
-    return false;
   }
   $('#code').val('');
   return false;
