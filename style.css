@@ -6,6 +6,7 @@ html {
   font-size: 30px;
 }
 body{
+  margin:0;
   background-color: rgb(34, 31, 56);
 }
 form{
@@ -14,30 +15,97 @@ form{
   left:50%;
   transform: translate(-50%, -50%);
 }
-div{
-  width:200px;
-  height:300px;
-  border-color:aqua;
-  background-color: aqua;
+#searchbardiv{
+  width:1000px;
+  height:700px;
   border-width:10px;
   position:absolute;
   top:50%;
-  left:50%;
-  transform: translate(-50%, 0%);
+  left:40%;
+  transform: translate(-50%, -47%);
+}
+#searchbar{
+  position:absolute;
+  top:0%;
+  left:0%;
+  transform:translate(0%,70px);
+}
+#querybtn{
+  width:100px;
+  height:40px;
 }
 #code{
-  height:20px;
-  width:100px
+  height:40px;
+  width:400px;
+  font-size:30px;
 }
 #codelabel{
   font-size:30px;
 }
 img{
+  position:absolute;
+  top: 0%;
+  left:100%;
+  transform: translate(-100%,8%);
   height:700px;
   width:auto;
 }
-h1{
+input{
+  background-color: rgb(70, 70, 145);
+  color:white
+}
+#loginbtn{
+  position:absolute;
+  bottom:-75%;
+  left:50%;
+}
+label{
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+}
+input::placeholder{
+  color:rgb(136,124,216);
+}
+#notif{
+  color:#c47373;
+  font-size:10px;
+}
+#toppage{
+  padding:10px;
+  width:100%;
+  height:100px;
+  background-color: #0f001f;
+}
+#logoutbtn{
+  border-width:5px;
+  position:absolute;
+  top:37.5px;
+  right:50px;
+  height:40px;
+  width:90px;
+  background-color: rgb(70, 70, 145);
+  color:white;
+}
+#logindiv{
+  width:400px;
+  height:200px;
+}
+#heading{
   color:rgb(153, 0, 0);
   font-size:80px;
-  font-family:'Courier New', Courier, monospace
+  font-family:'Courier New', Courier, monospace;
+}
+#resultnotif{
+  font-size:30px;
+  color:white;
+  position:absolute;
+  top: 0%;
+  left:100%;
+  transform: translate(-100%,0%);
+  height:700px;
+  width:auto;
+}
+#greeting{
+  font-size:30px;
+  color:white;
 }

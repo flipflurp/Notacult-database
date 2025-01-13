@@ -10,25 +10,44 @@
 </head>
 
 <body>
-  <h1>Notacult Database</h1>
-  <div  id="login" >
-    <form>
-      <label style="color: white;" for="password">Password:</label>
-      <input id='password' autocomplete="off" style="background-color: rgb(70, 70, 145);" placeholder='Enter password' required autofocus>
+  <div id='toppage'>
+    <div id="heading">
+      Notacult Database 
+    </div>
+      <button id="logoutbtn" hidden>Log out</button>
+  </div>
+
+
+  
+  <div  id="logindiv" >
+    <form id="login">
+      <label style="color:white;" for="username">Username:</label>
+      <input id="username" autocomplete = 'off' placeholder="Enter your username"><br>
+      <label for="password">Password:</label>
+      <input id='password' autocomplete="off" placeholder='Enter password' required>
+      <br>
+      <input id='loginbtn' type='submit' value='Log in'>
     </form>
+    <span id="notif"></span>
     </body>
   </div>
-  <div id='searchbar' name='searchbar' hidden>
-    <form>
-      <label for="code" style = "color:white;" id="codelabel">
+
+
+
+  
+  <div id='searchbardiv' name='searchbardiv' hidden>
+    <p id="greeting">Hello, <span id="greetingname"></span>!</p>
+    <form id='searchbar'>
+      <label for="code" id="codelabel">
         Enter file ID:
       </label><br>
-      <input type="button" value="Query" id="queryBtn">
-      <input id="code" name="code" autocomplete="off" style='background-color: rgb(70, 70, 145);'>
+      <input id="code" name="code" autocomplete="off" autofocus>
     </form>
+    <br><br>
     <img id="result" src='' alt="">
+    <p id="resultnotif" hidden>No result found</p>
   </div>
-    <p id="notif"></p>
+    
   <script src="script.js"></script>
 </body>
 
