@@ -40,7 +40,6 @@ $('#login').submit(function(){
   else{
     $('#username').attr('placeholder','');
     $('#username').css('background-color','rgb(220,100,130)');
-    $('#username').val('');
     $('#password').val('');
     
   }
