@@ -5,6 +5,9 @@ if(localStorage.getItem('loggedin') == 'true'){
   $('#searchbardiv').show();
   $('#logoutbtn').show();
   $('#greetingname').text(localStorage.getItem('username'));
+  if(localStorage.getItem('temp') == 'true'){
+    localStorage.setItem('loggedin','false')
+  }
 }
 var users = {};
 users['Maryland'] = 'bcghjmpt';
@@ -28,6 +31,12 @@ $('#login').submit(function(){
     if(users[$('#username').val()] == $('#password').val()){
       localStorage.setItem('loggedin', 'true');
       localStorage.setItem('username', $('#username').val());
+      if($('#rememberme').val()==true){
+        localStorage.setItem('temp','false');
+      }
+      else{
+        localStorage.setItem('temp','false');
+      }
       location.reload();
     }
     else{
