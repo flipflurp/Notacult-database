@@ -11,11 +11,11 @@ if(localStorage.getItem('loggedin') == 'true'){
 }
 var users = {};
 users['Maryland'] = 'bcghjmpt';
-users['ADCarrie'] = 'bcghjmpt';
-users['Jerry'] = 'bcghjmpt';
-users['HarryCrotchGoblin'] = 'bcghjmpt';
-users["BarryDepressed"] = 'bcghjmpt';
-users['PerryThePlatypus'] = 'bcghjmpt';
+users['ADCarrie'] = 'Carrie1024';
+users['Jerry'] = 'Jerry';
+users['HarryCrotchGoblin'] = 'spiderman1';
+users["BarryDepressed"] = 'ifykykiwtkys';
+users['PerryThePlatypus'] = 'perry513';
 users['Gary'] = 'bcghjmpt';
 users['Terryble'] = 'bcghjmpt';
 
