@@ -35,7 +35,7 @@ $('#login').submit(function(){
         localStorage.setItem('temp','false');
       }
       else{
-        localStorage.setItem('temp','false');
+        localStorage.setItem('temp','true');
       }
       location.reload();
     }
