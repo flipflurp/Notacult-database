@@ -5,6 +5,9 @@ html {
 #result{
   font-size: 30px;
 }
+#heading{
+  font-size:10vw;
+}
 body{
   margin:0;
   background-color: rgb(34, 31, 56);
