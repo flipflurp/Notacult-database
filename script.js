@@ -68,13 +68,13 @@ $('#searchbar').submit(function(){
   enteredCode = $('#code').val().toLowerCase();
   $('#result').show();
   $('#resultnotif').hide('');
-  if(enteredCode == 'balls'){
+  if(enteredCode == 'cvo-075'){
     $('#result').attr('src','Images/Convo1.jpeg');
   }
-  else if(enteredCode == 'meow'){
+  else if(enteredCode == 'cvo-089'){
     $('#result').attr('src','Images/Convo2.jpeg');
   }
-  else if(enteredCode == 'chocolate'){
+  else if(enteredCode == 'cvo-091'){
     $('#result').attr('src','Images/Convo3.jpeg');
   }
   else if(enteredCode == 'gnieb hc tirdle'){
