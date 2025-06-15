@@ -6,6 +6,7 @@ html {
   font-size: 30px;
 }
 body{
+  overflow-x:hidden;
   margin:0;
   background-color: rgb(34, 31, 56);
 }
@@ -16,7 +17,7 @@ form{
   transform: translate(-50%, -50%);
 }
 #searchbardiv{
-  width:1000px;
+  width:100%;
   height:700px;
   border-width:10px;
   position:absolute;
