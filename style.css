@@ -18,12 +18,12 @@ form{
   transform: translate(-50%, -50%);
 }
 #searchbardiv{
-  width:100%;
+  width:80vw;
   height:700px;
   border-width:10px;
   position:absolute;
   top:50%;
-  left:80%;
+  left: 50%;
   transform: translate(-50%, -47%);
 }
 #searchbar{
