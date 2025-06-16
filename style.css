@@ -23,12 +23,12 @@ form{
   border-width:10px;
   position:absolute;
   top:50%;
-  left:40%;
+  left:80%;
   transform: translate(-50%, -47%);
 }
 #searchbar{
   position:absolute;
-  top: 20%;
+  top: 0%;
   left:0%;
   transform:translate(0%,70px);
 }
